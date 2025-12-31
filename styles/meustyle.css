@@ -164,7 +164,7 @@ strong {
 @media(max-width:800px){
 
     .cabecalho-conteudo-links{
-        justify-content:space-around;
+        flex-direction:column;
     }
     
     .apresentacao{
@@ -186,3 +186,4 @@ strong {
     }
 
 }
+
