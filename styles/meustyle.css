@@ -55,10 +55,10 @@ main {
 }
 
 .apresentacao {
-    padding: 5% ;
+    padding: 1% 5%;
     display: flex;
     align-items:flex-start;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .apresentacao-texto {
@@ -99,7 +99,7 @@ strong {
 }
 
 .apresentacao-imagem{
-    width: 40%;
+    width: 30%;
 }
 
 .apresentacao-texto-links-subtitulo {
@@ -141,14 +141,11 @@ strong {
     font-weight: 400;
     color: var(--cor-secundaria);
     background-color:black;
-    padding: 12px;
-    gap: 0.5rem;
 }
 
 .rodape-contato{
     display: flex;
-    flex-direction: column;
-    gap:0.5rem;
+    justify-content: space-around;
     padding:0 0 0 50px ;
 }
 
@@ -180,5 +177,9 @@ strong {
     
     .cabecalho-conteudo-links{
         justify-content:space-around;
+    }
+
+    .rodape-contato{
+        flex-direction: column;
     }
 }
