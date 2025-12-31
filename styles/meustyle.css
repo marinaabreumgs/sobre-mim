@@ -21,10 +21,8 @@ body {
 }
 
 .cabecalho {
-    height: 1%;
     background-color: var(--cor-secundaria);
     border-radius: 0 0 5px 5px;
-    padding: 20px;
 }
 
 .cabecalho-conteudo-links {
@@ -159,11 +157,21 @@ strong {
 }
 
 @media(max-width:800px){
-
-    .cabecalho-conteudo-links{
-        flex-direction:column;
+    .cabecalho{
+        background-color: var(--cor-primaria);  
     }
-    
+     .cabecalho-conteudo-links{
+        flex-direction: column;
+    }
+
+    .cabecalho-conteudo-links-link{
+        border: 1px  solid var(--cor-secundaria);
+    }
+ 
+     .cabecalho-conteudo-links-link:hover {
+        background-color: var(--cor-secundaria);
+    }
+
     .apresentacao{
         flex-direction: column-reverse;
         gap:50px;
@@ -177,11 +185,8 @@ strong {
         width: 60%;
     }
     
-    .rodape-contato{
+     .rodape-contato{
         flex-direction: column;
         word-wrap: break-word;
     }
-
 }
-
-
