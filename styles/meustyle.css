@@ -162,6 +162,11 @@ strong {
 }
 
 @media(max-width:800px){
+
+    .cabecalho-conteudo-links{
+        justify-content:space-around;
+    }
+    
     .apresentacao{
         flex-direction: column-reverse;
         gap:50px;
@@ -175,11 +180,9 @@ strong {
         width: 60%;
     }
     
-    .cabecalho-conteudo-links{
-        justify-content:space-around;
-    }
-
     .rodape-contato{
         flex-direction: column;
+        word-wrap: break-word;
     }
+
 }
