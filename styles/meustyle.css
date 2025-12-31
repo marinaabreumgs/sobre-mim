@@ -34,10 +34,7 @@ body {
 }
 
 .cabecalho-conteudo-links-link {
-    border: 2px solid var(--cor-secundaria);
-    border-color: var(--cor-primaria);
     padding: 10px;
-    border-radius: 5px;
     color: var(--cor-terciaria);
     font-size: 1rem;
     font-family: var(--fonte-texto);
@@ -186,4 +183,5 @@ strong {
     }
 
 }
+
 
